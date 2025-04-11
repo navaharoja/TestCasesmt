@@ -1,0 +1,18 @@
+{
+    "menu_izq": {
+        "xpath": "//*[@id='layoutContainers']/div/div[2]/div[1]",
+        "options_buttons": {
+            "Mis_Documentos": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[1]/li",
+            "Autoeval_Teletrabajo": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[2]/li",
+            "Consulta_pago_Licencias": "//*[@id='layoutContainers']/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[3]/li",
+            "Resol_Accidentes_y_Enfermedades": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[4]/li",
+            "Resultado_Examenes": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[5]/li",
+            "Mis_Cursos": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[6]/li",
+            "Mis_Controles": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[7]/li",
+            "Mis-Datos": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[8]/li",
+            "Cambiar_Contraseñas": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[9]/li",
+            "Cambio_Empresa": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[10]/li",
+            "Resgistra_Tu_Cuenta_Bancaria": "//*[@id=layoutContainers]/div/div[2]/div[1]/div/section/div[2]/div[2]/ul/a[11]/li"
+        }
+    }
+}

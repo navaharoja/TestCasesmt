@@ -1,0 +1,118 @@
+{
+    "Solicitudes_Consultas_Reclamos": {
+        "Tipo_Caso": {
+            "xpath": "//*[@id=\"motivoContacto\"]",
+            "options": {
+                "Felicitación": "//*[@id=\"motivoContacto\"]/option[2]",
+                "Reclamo": "//*[@id=\"motivoContacto\"]/option[3]",
+                "Consulta": "//*[@id=\"motivoContacto\"]/option[4]",
+                "Solicitud": "//*[@id=\"motivoContacto\"]/option[5]",
+                "Sugerencia": "//*[@id=\"motivoContacto\"]/option[6]"
+            }
+        },
+        "Tema": {
+            "xpath": "//*[@id=\"tema\"]",
+            "options": {
+                "Administracion_de_Siniestros": "//*[@id=\"tema\"]/option[2]",
+                "Beneficios_Economicos": "//*[@id=\"tema\"]/option[3]",
+                "Centro_de_Evaluación_del_Trabajo_CET": "//*[@id=\"tema\"]/option[4]",
+                "Covid-19": "//*[@id=\"tema\"]/option[5]",
+                "DS_67": "//*[@id=\"tema\"]/option[6]",
+                "Devolución_de_cotización_por_pago_en_excesos": "//*[@id=\"tema\"]/option[7]",
+                "Relaciones_Comerciales": "//*[@id='tema']/option[9]", 
+                "Release_SST": "//*[@id=\"tema\"]/option[9]",
+                "Servicio_SSO": "//*[@id=\"tema\"]/option[10]",
+                "Servicios_Remotos": "//*[@id=\"tema\"]/option[11]"
+            }
+        },
+        "Categoria": {
+            "xpath": "//*[@id='categoria']",
+            "options": {
+                "Calificacion_de_Denuncias": "//*[@id=\"categoria\"]/option[2]",
+                "Pago_de_beneficios_economicos": "//*[@id=\"categoria\"]/option[3]",
+                "Recaudación_facturación_y_cobros" : "//*[@id='categoria']/option[2]",
+                "Relaciones_con_adherentes": "//*[@id='categoria']/option[3]"
+
+            }
+        },
+        "Motivo": {
+            "xpath": "//*[@id='motivo']",
+            "options": {
+                "Revisión_de_calificación_Enfermedades_Profesionales": "//*[@id='motivo']/option[2]",
+                "Revisión_de_calificación_de_Accidentes_de_Trayecto": "//*[@id='motivo']/option[3]",
+                "Revisión_de_calificación_de_Accidentes_de_Trabajo": "//*[@id='motivo']/option[4]",
+                "Suspension_o_no_Pago_de_Subsidio": "//*[@id='motivo']/option[2]",
+                "Suspension_o_no_pago_de_Pensión": "//*[@id='motivo']/option[3]",
+                "Cambio_Representante_Legal": "//*[@id='motivo']/option[2]"
+            }
+        },
+        "Requiere_Respuesta": {
+            "xpath": "//*[@id=\"requiereRespuesta\"]",
+            "options": {
+                "Si": "//*[@id=\"requiereRespuesta\"]/option[1]",
+                "No": "//*[@id=\"requiereRespuesta\"]/option[2]"
+            }
+        },
+        "Canal_de_Respuesta": {
+            "xpath": "//*[@id=\"canalRespuesta\"]",
+            "options": {
+                "Correo_Electronico": "//*[@id=\"canalRespuesta\"]/option[2]",
+                "Llamada_Telèfonica": "//*[@id=\"canalRespuesta\"]/option[3]",
+                "Carta": "//*[@id=\"canalRespuesta\"]/option[4]"
+            }
+        },
+        "Datos_de_Contacto": {
+            "lbl_Datos_de_Contacto": "//*[@id='sectionFormulario']/div[1]/div[1]/h3",
+            "Tipo_de_Solicitante": {
+                "xpath": "//*[@id=\"tipoSolicitante\"]",
+                "options": {
+                    "Empresa_adherente_o_afiliada": "//*[@id=\"tipoSolicitante\"]/option[1]",
+                    "Empresa_no_adherente_o_afiliada": "//*[@id=\"tipoSolicitante\"]/option[2]",
+                    "Otro": "//*[@id=\"tipoSolicitante\"]/option[3]",
+                    "Pensionado": "//*[@id=\"tipoSolicitante\"]/option[4]",
+                    "Trabajador_dependiente_protegido": "//*[@id='tipoSolicitante']/option[5]",
+                    "Trabajador_independiente_protegido": "//*[@id=\"tipoSolicitante\"]/option[6]",
+                    "Trabajador_no_protegido": "//*[@id=\"tipoSolicitante\"]/option[7]"
+                }
+            },
+            "Rut_Empresa": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:rutEmpresa\"]",
+            "Razon_Social": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:j_id_2q\"]",
+            "Rut_de_Contacto": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:rutContacto\"]",
+            "Nombre": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputNomCont\"]",
+            "Apellido_Paterno": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputAppCont\"]",
+            "Apellido_Materno": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputApmCont\"]",
+            "Email": "//*[@id='viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputEmailCont']", 
+            "Telefono": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputTelmCont\"]",
+            "Calle": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputCalleDom\"]",
+            "Numero": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:inputNroDom\"]",
+            "Comuna": {
+                "xpath": "//*[@id=\"comuna\"]",
+                "options": {
+                    "PROVIDENCIA": "//*[@id=\"comuna\"]/option[230]",
+                    "PRUEBA": "//*[@id=\"comuna\"]/option[231]"
+                }
+            },
+            "Cargo": {
+                "xpath": "//*[@id=\"cargo\"]",
+                "options": {
+                    "ADMINISTRATIVO": "//*[@id=\"cargo\"]/option[2]"
+                }
+            },
+            "Genero": {
+                "xpath": "//*[@id='genero']",
+                "options": {
+                    "Otro": "//*[@id='genero']/option[1]", 
+                    "Personalizado": "//*[@id='genero']/option[2]",
+                    "Hombre": "//*[@id='genero']/option[3]",
+                    "Mujer": "//*[@id='genero']/option[4]"
+                }
+            }
+        },
+        "Motivo_del_requerimiento": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:mensaje\"]",
+        "Adjuntar_Documentos": "//*[@id=\"drop-zone\"]",
+        "Recaptcha": "//*[@id='recaptcha-anchor']/div[4]", 
+        "Botón_Enviar": "//*[@id=\"viewns_Z7_JAA62IG0LGCH60Q4S4CADJ0002_:form_reclamo:enviar\"]"
+    }
+}
+
+                  

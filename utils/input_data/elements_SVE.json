@@ -1,0 +1,40 @@
+{
+    "menu_izq_CET": {
+        "xpath": "//*[@id='cet']/a",
+        "options": {
+            "Descarga_informes_de_Evaluacion": "//*[@id='cet']/div/ul/li[3]/a"
+        }
+    },
+    "Centro_Evaluacion_del_Trabajo_CET": {
+        "Agendar evaluaciones CET": "//*[@id='vertical_container']/ul/li[1]/a[1]",
+        "Ver_modificar_o_anular_horas_agendadas": "//*[@id='vertical_container']/ul/li[2]/a",
+        "Descargar_informes_de_Evaluacion": "//*[@id='vertical_container']/ul/li[2]/a",
+        "Gestion_de_Contratos": "//*[@id='vertical_container']/ul/li[4]/a",
+        "Validar_informes_de_compatibilidad_de_salud_psicológicos_y_drogas": "//*[@id='vertical_container']/ul/li[5]/a"
+    },
+    "form_Descargar_informes_de_Evaluacion": {
+        "Seleccione_Empresa": "//*[@id='viewns_Z7_JAA62IG0LOKDA0QCG9LF3408T5_:formulariocet']/div/div[1]/div/input[2]",
+        "Selecciona_tipo_de_descarga": {
+            "Individual": "//*[@id='individual']/input",
+            "Masiva": "//*[@id='masiva']",
+            "dropdownbutton": "//*[@id='mode']/i",
+            "opcion": {
+                "Periodo:de Vigencia": "//*[@id='mode']/div[1]/div[1]",
+                "Periodo_de_Evaluacion": "//*[@id='mode']/div[2]/div[2]"
+            },
+            "Fecha_Desde": "//*[@id='rangestarttxt']",
+            "Fecha_Hasta": "//*[@id='rangeendtxt']"
+        },
+        "Datos_del_Trabajador": "//*[@id='viewns_Z7_JAA62IG0LOKDA0QCG9LF3408T5_:formulariocet:j_id_m']",
+        "rut_trabajador": {
+            "rut_1": "273223460",
+            "rut_2": "19900925",
+            "rut_3": "JU12345687",
+            "rut_4": "10312838-2"
+        },
+        "btn_Buscar": "//*[@id='buscarInfo']",
+        "check_Listado_de_Informes": "//*[@id='viewns_Z7_JAA62IG0LOKDA0QCG9LF3408T5_:formulariocet:allCheck']", 
+        "btn_Descargar_Seleccionados": "//*[@id='viewns_Z7_JAA62IG0LOKDA0QCG9LF3408T5_:formulariocet:j_id_3j']"
+    }
+    
+}

@@ -1,0 +1,237 @@
+{
+    "motivo": {
+        "selectmotivo": "//*[@id='motivo']",
+        "examenocupacional": "//*[@id='motivo']/option[2]",
+        "examenpreocupacional": "//*[@id='motivo']/option[3]",
+        "examenareapsicologia": "//*[@id='motivo']/option[4]",
+        "evaluacionsaludintegral": "//*[@id='motivo']/option[5]",
+        "modificacionsolicitud": "//*[@id='motivo']/option[6]",
+        "anulacion": "//*[@id='motivo']/option[7]"
+
+    },
+    "tipoSolicitante": {
+        "tipoSolicitante": "//*[@id='tipoSolicitante']",
+        "trabajador_dependiente_protegido": "//*[@id='tipoSolicitante']/option[2]",
+        "trabajador_independiente_protegido": "//*[@id='tipoSolicitante']/option[3]",
+        "pensionado_protegido": "//*[@id='tipoSolicitante']/option[4]",
+        "empresa_adherente_afiliada": "//*[@id='tipoSolicitante']/option[5]",
+        "otro": "//*[@id='tipoSolicitante']/option[6]",
+        "trabajador_no_protegido": "//*[@id='tipoSolicitante']/option[7]",
+        "empresa_no_adherente_afiliada": "//*[@id='tipoSolicitante']/option[8]"
+    },
+    "informacion_solicitante": {
+        "rut_empresa": "//*[@id='rutEmpresa']",
+        "razon_social": "//*[@id='razonSocial']",
+        "rut_contacto": "//*[@id='rutContacto']",
+        "nombre": "//*[@id='nombre']",
+        "apellido_paterno": "//*[@id='apellidoPaterno']",
+        "apellido_materno": "//*[@id='apellidoMaterno']",
+        "correo_electronico": "//*[@id='email']",
+        "telefono_contacto": "//*[@id='telefonoContacto']",
+        "calle": "//*[@id='domicilio']",
+        "numero": "//*[@id='numeroCalle']",
+        "comuna": "//*[@id='comuna']",
+        "comuna_prueba": "//*[@id='comuna']/option[2]",
+        "comuna_nunoa": "//*[@id='comuna']/option[6]"
+    },
+    "cargo": {
+        "cargo": "//*[@id='cargo']",
+        "cargo_analista": "//*[@id='cargo']/option[8]"
+    },
+    "genero": {
+        "genero": "//*[@id='genero']",
+        "otro": "//*[@id='genero']/option[2]",
+        "personalizado": "//*[@id='genero']/option[3]",
+        "hombre": "//*[@id='genero']/option[4]",
+        "mujer": "//*[@id='genero']/option[5]"
+    },
+    "datos_facturacion": {
+        "direccion_facturacion": "//*[@id='direccionFacturacion']",
+        "comuna_facturacion": "//*[@id='comunaFacturacion']",
+        "comuna_facturacion_prueba": "//*[@id='comunaFacturacion']/option[2]",
+        "comuna_facturacion_nunoa": "//*[@id='comunaFacturacion']/option[6]"
+    },
+    "centro_evaluacion_trabajo": {
+        "region": "//*[@id='ciudad']",
+        "region_metropolitana": "//*[@id='ciudad']/option[8]",
+        "agencia": {
+            "Melipilla": "//*[@id='agencia']/option[2]",
+            "CET_Arauco": "//*[@id='agencia']/option[3]",
+            "Hospital_Santiago": "//*[@id='agencia']/option[4]",
+            "Quilicura": "//*[@id='agencia']/option[5]",
+            "CET_Santiago_Centro": "//*[@id='agencia']/option[6]",
+            "CET_Providencia": "//*[@id='agencia']/option[7]"
+                    }
+    },
+    "motivo_requerimiento": {
+        "motivo_desc": "//*[@id='datosContactoFacturacion']/div/div[7]/div/div/textarea"
+    },
+    "boton_enviar": {
+        "enviar": "//*[@id='datosContactoFacturacion']/div/div[8]/div/button"
+    },
+    "agentes_riesgo": {
+        "seleccionar_agentes": "//*[@id='agentesRiesgo']",
+        "asma": "//*[@id='agentesRiesgo']/option[2]",
+        "anhidrido_sulfuroso": "//*[@id='agentesRiesgo']/option[3]",
+        "arsenico": "//*[@id='agentesRiesgo']/option[4]",
+        "plaguicidas": "//*[@id='agentesRiesgo']/option[5]",
+        "polvos_neumoconigenos": "//*[@id='agentesRiesgo']/option[6]",
+        "radiaciones_ionizantes": "//*[@id='agentesRiesgo']/option[7]",
+        "ruido": "//*[@id='agentesRiesgo']/option[8]",
+        "cromo": "//*[@id='agentesRiesgo']/option[9]",
+        "manganeso": "//*[@id='agentesRiesgo']/option[10]",
+        "citostaticos": "//*[@id='agentesRiesgo']/option[11]"
+    },
+    "cargo_riesgo": {
+        "seleccionar_cargo": "//*[@id='cargoRiesgo']",
+        "brigadista_rescate": "//*[@id='cargoRiesgo']/option[2]",
+        "conductor_vehiculo_liviano": "//*[@id='cargoRiesgo']/option[3]",
+        "conductor_operador_maquinaria_a": "//*[@id='cargoRiesgo']/option[4]",
+        "conductor_operador_maquinaria_d": "//*[@id='cargoRiesgo']/option[5]",
+        "guardias": "//*[@id='cargoRiesgo']/option[6]",
+        "operador_agua_alta_presion": "//*[@id='cargoRiesgo']/option[7]",
+        "operador_equipo_cancha_madereo": "//*[@id='cargoRiesgo']/option[8]",
+        "mecanico_vuelos_prueba": "//*[@id='cargoRiesgo']/option[9]",
+        "telecontrolador_tareas_criticas": "//*[@id='cargoRiesgo']/option[10]",
+        "vigilantes_privados": "//*[@id='cargoRiesgo']/option[11]",
+        "operador_herramienta_maquina": "//*[@id='cargoRiesgo']/option[12]"
+    },
+    "condiciones_riesgo": {
+        "seleccionar_condiciones": "//*[@id='condicionesRiesgo']",
+        "certificacion_plaguicidas": "//*[@id='condicionesRiesgo']/option[2]",
+        "certificacion_radioactiva": "//*[@id='condicionesRiesgo']/option[3]",
+        "sin_condicion_a": "//*[@id='condicionesRiesgo']/option[5]",
+        "sin_condicion_b": "//*[@id='condicionesRiesgo']/option[6]",
+        "altura_fisica": "//*[@id='condicionesRiesgo']/option[7]",
+        "calor": "//*[@id='condicionesRiesgo']/option[8]",
+        "espacio_confinado": "//*[@id='condicionesRiesgo']/option[9]",
+        "frio": "//*[@id='condicionesRiesgo']/option[10]",
+        "hiperbaria": "//*[@id='condicionesRiesgo']/option[11]",
+        "trabajo_alta_mar": "//*[@id='condicionesRiesgo']/option[12]",
+        "hipobaria_gag": "//*[@id='condicionesRiesgo']/option[13]",
+        "metales": "//*[@id='condicionesRiesgo']/option[14]",
+        "trabajo_gran_altura_geografica": "//*[@id='condicionesRiesgo']/option[15]"
+    },
+    "boton_siguiente": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[2]/div[2]/button",
+    "boton_entendido": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[1]/div/div[1]/div/div[3]/button",
+    "psicosensotecnico": {
+        "seleccionar_evaluacion": "//*[@id='psicosensotecnico']",
+        "sensotecnico": "//*[@id='psicosensotecnico']/option[2]",
+        "Riguroso Vehículo Liviano": "//*[@id='psicosensotecnico']/option[3]",
+        "Riguroso Equipo móvil y/o fijo con parte móvil": "//*[@id='psicosensotecnico']/option[4]",
+        "Riguroso Para Maquinaria Pesada": "//*[@id='psicosensotecnico']/option[5]",
+        "Operación de Alta Criticidad": "//*[@id='psicosensotecnico']/option[6]",
+        "Operador de Trenes": "//*[@id='psicosensotecnico']/option[7]",
+        "Operador Collahuasi": "//*[@id='psicosensotecnico']/option[8]"
+    },
+    "evaluaciones_psicolaborales": {
+        "seleccionar_eval_psicolaboral": "//*[@id='evaluacionesPsicolaborales']",
+        "Selección_de_Personal_Auxiliar_u_Operario_**": "//*[@id='evaluacionesPsicolaborales']/option[2]",
+        "Selección_de_Personal_Administrativo_**": "//*[@id='evaluacionesPsicolaborales']/option[3]",
+        "Selección_de_Personal_Técnicos_y_Profesionales_**": "//*[@id='evaluacionesPsicolaborales']/option[4]",
+        "Selección_de_Personal_para_Jefaturas_y_Alta_Dirección_**": "//*[@id='evaluacionesPsicolaborales']/option[5]",
+        "Evaluacion_de_Aversion_al_Riesgo": "//*[@id='evaluacionesPsicolaborales']/option[6]",
+        "Evaluación_para_Vigilante_Privado_con_Porte_de_Arma": "//*[@id='evaluacionesPsicolaborales']/option[7]",
+        "Evaluación_para_Personal_de_Seguridad_Privada": "//*[@id='evaluacionesPsicolaborales']/option[8]",
+        "Evaluación_Psicológica_para_Trabajadores_del_rubro_Ferroviario": "//*[@id='evaluacionesPsicolaborales']/option[9]"
+    },    
+    "boton_siguiente2": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[3]/div[2]/button",
+    "boton_entendido2": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[1]/div/div[1]/div/div[3]/button",
+    "otras_evaluaciones": {
+        "seleccionar_otras_evaluaciones": "//*[@id='otrasEvaluaciones']",
+        "ALBUMINA": "//*[@id='otrasEvaluaciones']/option[2]",
+        "ALCOHOL_ETILICO_EN_SANGRE": "//*[@id='otrasEvaluaciones']/option[3]",
+        "ANTICUERPOS_VIRALES_DETERM_DE_HIV": "//*[@id='otrasEvaluaciones']/option[4]"
+
+    },
+    "evaluaciones_de_drogas": {
+        "seleccionar_eval_drogas": "//*[@id='evaluacionesDrogas']", 
+        "Marihuana": "//*[@id='evaluacionesDrogas']/option[2]",
+        "Cocaina": "//*[@id='evaluacionesDrogas']/option[3]",
+        "Benzodiazepinas": "//*[@id='evaluacionesDrogas']/option[4]",
+        "Anfetamina": "//*[@id='evaluacionesDrogas']/option[5]",
+        "Alcohol": "//*[@id='evaluacionesDrogas']/option[6]",
+        "Barbituricos": "//*[@id='evaluacionesDrogas']/option[7]",
+        "Opiaceos": "//*[@id='evaluacionesDrogas']/option[8]",
+        "Metanfetaminas": "//*[@id='evaluacionesDrogas']/option[9]" 
+    },
+    "boton_siguiente3": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[3]/div[2]/button",
+    "Centro_de_Trabajo_1": {
+        "txtf_nombre": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_9_1_0_2_4']",
+        "nombre": "Test Automatizado",
+        "txtf_direccion": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_9_1_0_2_6']",
+        "direccion": "Test 1234",
+        "slct_region": "//*[@id='region']",
+        "metropolitana": "//*[@id='region']/option[8]",
+        "slct_provincia": "//*[@id='provincia']",
+        "santiago": "//*[@id='provincia']/option[6]",
+        "slct_comuna": "//*[@id='comuna']",
+        "providencia": "//*[@id='comuna']/option[7]",
+        "txtf_cantidad_trabajadores": "//*[@id='cantidadTrabajadores']",                                       
+        "cant_trabajadores": "1",
+        "btn_ingresar_nomina": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div[1]/div/div[2]/div/div/div[2]/div/button"                           
+    },
+    "formulario_nomina_trabajadores": {
+        "selfRUT": "//*[@id='tipoDoc']",
+        "opcRUT": "//*[@id='tipoDoc']/option[2]", 
+        "txtfRUT": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_8']",
+        "RUT": "267068194",
+        "txtfNombres": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_a']",
+        "Nombres": "Tester Automatizado",
+        "txtfApellido_Paterno": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_c']",
+        "Apellido_Paterno": "Perez",
+        "txtfApellido_Materno": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_e']",
+        "Apellido_Materno": "Gonzalez",
+        "txtfCargo": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_g']",
+        "Cargo": "Analista",
+        "txtfFecha_de_Nacimiento": "//*[@id='tablaNomina0']/div/div[2]/div[2]/div/table/tbody/tr/td[7]/input[2]",
+        "Fecha_de_Nacimiento": "1990-01-02",
+        "txtfGenero": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_k']",
+        "Genero_M": "M",
+        "Genero_F": "F",
+        "txtfCentro_de_Costos": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_m']",
+        "Centro_de_Costos": "Testing",
+        "txtfFecha_Sugerida_Agendamiento": "//*[@id='tablaNomina0']/div/div[2]/div[2]/div/table/tbody/tr/td[10]/input[2]",
+        "Fecha_Sugerida_Agendamiento": "01-01-2021",
+        "txtfTelefono_de_Contacto": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_4_8_m_1_0_2_0_q']",
+        "Telefono_de_Contacto": "123456789",
+        "Boton_Adjuntar_Contrato": "//*[@id='tablaNomina0']/div/div[2]/div[2]/div/table/tbody/tr/td[12]/button",
+        "Boton_Guardar_Nomina": "//*[@id='btnGuardarNomina0']",
+        "Boton_Siguiente": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div[1]/div/div[3]/div[2]/button"
+    },
+    "form_nomina_trab_preocupacional": {
+        "txtf_cantidad_trabajadores": "//*[@id='cantidadTrabajadores']",
+        "cant_trab": "1", 
+        "btn_ingresar_nomina": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div[1]/div/div[2]/div/div/div[2]/div/button",
+        "txtfRUT": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_2']",
+        "RUT": "267068194",
+        "txtfNombres": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_4']",
+        "Nombres": "Tester Bot",
+        "txtfApellido_Paterno": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_6']",
+        "Apellido_Paterno": "Perez",
+        "txtfApellido_Materno": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_8']",
+        "Apellido_Materno": "Gonzalez",
+        "txtfCargo": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_a']",
+        "Cargo": "Analista",
+        "txtfFecha_de_Nacimiento": "//*[@id='tablaNomina0']/div/div[2]/div[2]/div/table/tbody/tr/td[6]/input[2]",
+        "Fecha_de_Nacimiento": "1990-01-02",
+        "txtfGenero": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_e']",
+        "Genero_M": "M",
+        "Genero_F": "F",
+        "txtfCentro_de_Costos": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_g']",
+        "Centro_de_Costos": "Testing",
+        "txtfFecha_Sugerida_Agendamiento": "//*[@id='tablaNomina0']/div/div[2]/div[2]/div/table/tbody/tr/td[9]/input[2]",
+        "Fecha_Sugerida_Agendamiento": "01-01-2021",
+        "txtfTelefono_de_Contacto": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:j_id_g_2_8_k_4_0_k']",
+        "Telefono_de_Contacto": "912345678",
+        "Boton_Guardar_Nomina": "//*[@id='btnGuardarNomina']",
+        "Boton_Siguiente": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div[1]/div/div[3]/div[2]/button"
+    },
+    "confirmacion_solicitud_hora_CET": {
+        "Div_Resumen": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[1]/div/div",
+        "Boton_Enviar": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[2]/div[2]/button",
+        "Solicitud_Enviada_Exitosamente": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[1]/div/div",
+        "Link_Descarga": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[1]/div/div/a",
+        "Boton_Volver_Inicio": "//*[@id='viewns_Z7_JAA62IG0LO55D0Q3QIHBBN10K1_:superFormulario:panelTipoMotivo']/div[2]/div/div/div/div/div/div[2]/div/button"
+    }                 
+}                        

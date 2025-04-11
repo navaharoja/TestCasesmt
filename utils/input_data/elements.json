@@ -1,0 +1,50 @@
+{
+    "username": {
+        "xpath": "//*[@id='ext-element-79']"
+    },
+    "password": {
+        "xpath": "//*[@id='ext-element-86']"
+    },
+    "login_button": {
+        "xpath": "//*[@id='ext-element-100']"
+    },
+    "menu": {
+        "xpath": "//*[@id='myMenu']/div[1]/a"
+    },
+    "menu_centro_ayuda": {
+        "xpath": "//*[@id='cab7']"
+    },
+    "menu_solicitud_cet": {
+        "xpath": "//*[@id='myMenu']/div[3]/div/div/div/nav/ul/li[7]/div/div/div/div[2]/div/div[4]"
+    },
+    "menu_solicitudes_consultas_reclamos": {
+        "xpath": "//*[@id='myMenu']/div[3]/div/div/div/nav/ul/li[7]/div/div/div/div[2]/div/div[2]/a"             
+    },
+    "btnSucursalVirtual": {
+        "xpath": "//*[@id='dropdownMenuButton']"
+    },
+    "btnSolicitarClaveSVE": {
+        "xpath": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4']/div[1]/div[2]/div/div[6]/a"
+    },
+    "formSolicitarClaveSVE": {
+        "rutUsuario": "//*[@id='viewns_Z7_31K6I3822HSRC06M9M344G0002_:formulario:j_id_5_3']",
+        "rut": "267068194",
+        "btnBuscarUsuario": "//*[@id='inscripcionLineaContent']/div[1]/div[1]/div[2]/button",
+        "Nombres": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:nombre']",
+        "Apellido_Paterno": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:apellidoPaterno']",
+        "Apellido_Materno": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:apellidoMaterno']",
+        "Correo_Electronico": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:email']",
+        "Telefono_Movil": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:telefono']",
+        "Cargo": {
+            "xpath": "//*[@id='cargo']/input[2]",
+            "Analista": "//*[@id='cargo']/div[2]/div[5]",
+            "Profesional": "//*[@id='cargo']/div[2]/div[35]"
+
+        },
+        "RUT_Empresa": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:rutEmpresa']",
+        "btnBuscarEmpresa": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:buscarEmpresa']",
+        "btnSolicitarPermisos": "//*[@id='viewns_Z7_JAA62IG0LORS30Q42FG62KJES3_:j_id_4:btnSolicitar']"
+    },
+    "xpathbtnTeAyudo": "//*[@id='QSIFeedbackButton-btn']"
+
+}

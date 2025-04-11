@@ -1,0 +1,119 @@
+{
+    "urlCertCloud": "https://172.177.177.139/portal/publico/mutual/inicio/home",
+    "urlProdCloud" : "https://www.mutual.cl/portal/publico/mutual/inicio/home",
+    "urlCertRediseno": "https://172.177.177.139/portal/publico/home-mutual/",
+    "urlProdRediseno": "https://www.mutual.cl/portal/publico/empresa/home/",
+    
+    "rutEmpresaPrd": {
+        "Cristian": "109121762",
+        "PruebaPrueba": "162772465",
+        "PruebaClaro" : "231-3",
+        "Dennys": "19053626-2"
+    },
+    "claveEmpresaPrd": {
+        "Cristian": "Clave.4848",
+        "PruebaPrueba": "Admin123#",
+        "PruebaClaro" : "abc127",
+        "Dennys,": "Mut$$2024"
+    },
+    "rutTrabajadorPrd": {
+        "Cristian": "109121762",
+        "PruebaPrueba": "162772465",
+        "IreneQuevedo": "83117427"
+    },
+    "claveTrabajadorPrd": {
+        "Cristian": "Clave.4848",
+        "PruebaPrueba": "Admin123#",
+        "IreneQuevedo": "I7416789"
+    },
+    "rutEmpresaCert": {
+        "Cristian": "109121762",
+        "Dennys": "190536262",
+        "HernanNava": "267068194",
+        "AndresValdes": "153182973",
+        "PruebaClaro" : "231-3",
+        "CristianTestIBM": "162833634",
+        "uservoid": "",
+        "userwrong": "1234567"
+    }, 
+    "claveEmpresaCert": {
+        "Cristian": "Clave.4848",
+        "Dennys": "Pruebas15*",
+        "HernanNava": "Clave.2024",
+        "AndresValdes": "Abcd1234",
+        "PruebaClaro" : "231-3",
+        "Tester": "TEST123*",
+        "passvoid": "",
+        "passwrong": "1234567"
+    },
+    "rutTrabajadorCert": {
+        "Cristian": "109121762",
+        "CSalas": "152322488",
+        "Dennys": "190536262", 
+        "HernanNava": "267068194",
+        "AndresValdes": "153182973",
+        "IreneQuevedo": "83117427",
+        "PruebaPruebaPrueba": "88029372",
+        "TestTest": "17128783-9",
+        "CarlaMarina": "24235527-k",
+        "uservoid": "",
+        "userwrong": "1234567",
+        "KevinCortes": "172844758",
+        "CesarAgurto": "126363834"
+    },
+    "claveTrabajadorCert": {
+        "Cristian": "Clave.194",
+        "CSalas": "Tomy2020",
+        "Dennys": "Pruebas12*",
+        "HernanNava": "Clave.123",
+        "AndresValdes": "Abcd1234",
+        "IreneQuevedo": "I7416789",
+        "PruebaPruebaPrueba": "Abcd1234",
+        "TestTest": "Mutual194",
+        "CarlaMarina": "Clave.123", 
+        "passvoid": "",
+        "passwrong": "1234567",
+        "KevinCortes": "MUT144243",
+        "CesarAgurto": "Mutual194."
+    },
+    "empresaid": {
+        "MUTUAL" : "70285100_2",
+        "WALMART": "76243813_323362",
+        "PROMET": "76543046_230513",
+        "DEEP_OCEAN": "77025283_333006",
+        "DIST_TEC_ELEC_VITEL": "89396900_10678",
+        "CENCOSUD": "93834000_101863"
+    },
+    "rutEmpresaMutual": "702851009",
+    "rutContactoMutual": "267068194",
+    "nombreSolicitanteMutual": "Tester",
+    "apellidoPaterno": "Perez",
+    "apellidoMaterno": "Gonzalez",
+    "correoElectronico": "hernan.hernesto.acosta@ibm.com",
+    "telefonoContacto": "123456789",
+    "calle": "Test",
+    "numero": "1234",
+    "comuna": "Ñuñoa",
+    "cargo": "Analista",
+    "genero": "Hombre",
+    "direccionFacturacion": "Test 1234",
+    "comunaFacturacion": "Ñuñoa",
+    "region": "Metropolitana",
+    "agencia": "Prueba",
+    "descripcionMotivoCET": "Prueba Automatizada - Solicitud de horas CET",
+    "descripcionMotivoSCR": "Prueba Automatizada - Solicitudes, Consultas y Reclamos",
+
+    "xpathsportalrediseño": {
+        "btnFonoRescate": "//*[@id='layoutContainers']/div/div[2]/div/div/section/div[2]/main[1]/section/button/div/span[2]",
+        "imgMutual": "//*[@id='layoutContainers']/div/div[2]/div/div/section/div[2]/main[1]/section/div[1]/img",
+        "btnEntrarAlSitio": "//*[@id='layoutContainers']/div/div[2]/div/div/section/div[2]/main[1]/section/div[1]/div/button",
+        "btnEmpresas": "//*[@id='layoutContainers']/div/div[2]/div/div/section/div[2]/main[1]/section/div[1]/div/div/div[1]",
+        "btnTrabajadores": "//*[@id='layoutContainers']/div/div[2]/div/div/section/div[2]/main[1]/section/div[1]/div/div/div[2]",
+        "btnUneteAMutual": "//*[@id='layoutContainers']/div/div[2]/div/div/section/div[2]/main[1]/section/div[1]/div/div/div[3]",
+        "btnIngresar5": "//*[@id='btnIngresar5']"
+        
+    }   
+        
+    
+}
+

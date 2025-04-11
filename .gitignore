@@ -1,0 +1,80 @@
+# =======================
+# Archivos de Microsoft Office
+# =======================
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# =======================
+# Imágenes
+# =======================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+
+# =======================
+# Archivos pesados y binarios
+# =======================
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.mp4
+*.mov
+*.avi
+*.exe
+*.dll
+*.iso
+
+# =======================
+# Archivos temporales y backups
+# =======================
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+
+# =======================
+# Archivos y carpetas de Python
+# =======================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+.venv/
+env/
+venv/
+
+# =======================
+# Archivos de sistema
+# =======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =======================
+# VSCode
+# =======================
+.vscode/
+
+# =======================
+# PyCharm
+# =======================
+.idea/
+
+# =======================
+# Jupyter Notebooks checkpoints
+# =======================
+.ipynb_checkpoints/
